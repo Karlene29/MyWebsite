@@ -1,0 +1,25 @@
+body {
+ /*background-color: red;*/
+ background-image: linear-gradient(#FF204E,#A0153E,#5D0E41,#00224D);
+    
+    color: beige;
+    text-align: center;
+}
+img {
+    width: 554px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color:#A0153E
+}
+
+h1 {
+      font-family: "Abril Fatface", serif;
+
+
+}
+p {
+      margin-bottom:25px;
+}
+
+ 
+    

@@ -1,0 +1,73 @@
+.common {
+  width: 35%;
+  border-style: groove;
+  border-color: #03346E;
+ border-width:3px;
+ padding:10px;
+ 
+ 
+}
+img {
+  width: 100%;
+  
+  
+  
+}
+.Nezuko {
+  /* background-image: linear-gradient (#0c134f, #5c469c); */
+  background-image: linear-gradient(#17153B,#433D8B);
+  color: beige;
+  
+  
+}
+body {
+    background-image: linear-gradient(#000000,#150050,#3F0071,#FB2576);
+}
+
+.Tanjiro {
+    background-image: linear-gradient(#070A52,#D21312);
+    color: beige;
+}
+
+.Naruto {
+    background-image: linear-gradient(#900C3F,#C70039);
+    color: beige;
+}
+h1 {
+  color: beige;
+  text-align: center;
+}  
+h2 {
+  text-align:center
+}
+p {
+  padding: 20px
+}
+.Anime {
+  Display:flex;
+  justify-content:space-evenly;
+  row-gap: 20px;
+  flex-wrap: wrap;
+
+}
+
+.Sakura {
+  background-image: linear-gradient(#522258,#8C3061);
+  color:beige
+}
+
+.Goku {
+  background-image: linear-gradient(#021526,#2E236C);
+  color:beige
+}
+
+.Elizabeth{
+  background-image: linear-gradient(#030637,#720455);
+  color:beige
+}
+
+
+
+        
+
+      

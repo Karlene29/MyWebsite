@@ -1,0 +1,148 @@
+.Head {
+  /* background-color: blueviolet; */
+  /* background-image: linear-gradient(#921a40, #d21312); */
+  /* background-image: linear-gradient(#070a52, #790252); */
+
+  grid-area: Header;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Con {
+  /* background-color: lightcoral; */
+  /* background-image: linear-gradient(#8c3061, #1d267d); */
+  grid-area: Content;
+}
+.Sb {
+  /* background-color: lightskyblue; */
+  /* background-image: linear-gradient(#021526, #13005a); */
+  grid-area: Sidebar;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.Foot {
+  /* background-color: lightseagreen; */
+  grid-area: Footer;
+  display: flex;
+  align-items: center;
+}
+.Parent {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "Header Header" "Content Sidebar" "Footer Footer";
+  grid-template-rows: 20% auto 10%;
+  grid-template-columns: auto 25%;
+}
+body {
+  margin: 0px;
+  background-image: linear-gradient(#ffe6e6, #e1afd1, #ad88c6, #7469b6);
+  background-attachment: fixed;
+}
+.nav {
+  background-color: #13005a;
+  width: 10%;
+  border: solid 2px black;
+  text-align: center;
+  padding: 10px;
+  margin-right: 20px;
+
+  transition: background-color 2s ease-in-out 0.1s;
+  transition: transform 2s;
+
+}
+.nav:hover {
+  background-color: blanchedalmond;
+  transform:scale(1.2);
+  
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  font-weight: bold;
+
+  transition: color 2s ease-in-out 0.1s;
+}
+
+.nav a:hover {
+  color: black;
+}
+
+.snav {
+  background-color: #790252;
+  width: 50%;
+  border: solid 2px black;
+  text-align: center;
+  padding: 10px;
+}
+
+.snav a {
+  color: white;
+  text-decoration: none;
+
+  font-family: "EB Garamond", serif;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+.card {
+  width: 30%;
+  background-color: beige;
+  border: groove 5px black;
+  transition: transform 2s;
+  
+}
+.card:hover{
+  transform:rotate(-5deg);
+}
+.card img {
+  width: 100%;
+}
+.desc {
+  padding: 3%;
+  font-family: "Pacifico", cursive;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+h1 {
+  text-align: center;
+  animation-name: places;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  font-family: "Bungee Tint", sans-serif;
+}
+.Foot img {
+  width: 25px;
+  margin-left: 15px;
+}
+.Foot p {
+  color: black;
+  margin-left: 15px;
+  font-family: "EB Garamond", serif;
+
+  font-size: 25px;
+}
+
+@keyframes places {
+  20% {
+    color: lightseagreen;
+  }
+  40% {
+    color: lightcoral;
+  }
+  60% {
+    color: lightgreen;
+  }
+  80% {
+    color: lightgoldenrodyellow;
+  }
+}
